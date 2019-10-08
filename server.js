@@ -40,6 +40,11 @@ app.get("/about", (req, res) => {
     pageTittle: "This is about the website"
   });
 });
+app.get("/projects", (req, res) => {
+  res.render("projects.hbs", {
+    pageTittle: "Project page "
+  });
+});
 app.get("/bad", (req, res) => {
   res.send({
     errorMessage: "Unable to handle the request",
