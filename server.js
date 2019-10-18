@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
   res.render("home.hbs", {
     pageTittle: "Welcome to my website",
 
-    welcomeMessage: "This is my very first website , you are very welcomed here"
+    welcomeMessage: "This iz my very first website , you are very welcomed here"
   });
 });
 app.get("/about", (req, res) => {
